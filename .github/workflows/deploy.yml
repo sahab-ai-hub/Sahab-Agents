@@ -21,3 +21,5 @@ jobs:
         run: railway deploy
         env:
           RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
+          RAILWAY_PROJECT_ID: f5f5ffd0-83f0-4299-bf3b-0bfa8dbb98f1
+          RAILWAY_SERVICE_ID: c88d43fd-38d2-462d-aa76-6ce507987934
