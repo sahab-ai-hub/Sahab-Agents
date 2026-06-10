@@ -15,8 +15,8 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Deploy to Railway
-        uses: hubeadmin/action-railway@v1.2
+        uses: railwayapp/deploy-action@v1
         with:
-          service_id: c88d43fd-38d2-462d-aa76-6ce507987934
+          service: odoo-dev
         env:
           RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
