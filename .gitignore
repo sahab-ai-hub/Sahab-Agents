@@ -1,0 +1,54 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.pyo
+*.pyd
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# ── Odoo specific ─────────────────────────────────────────────────────────────
+# Compiled translations
+*.pot
+# Odoo filestore / sessions (never commit runtime data)
+filestore/
+sessions/
+# Odoo log files
+*.log
+
+# ── Node / frontend assets ────────────────────────────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.yarn/
+
+# ── IDE / editor ──────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ── Docker ────────────────────────────────────────────────────────────────────
+.dockerignore
+
+# ── Git ───────────────────────────────────────────────────────────────────────
+.git/
+
+# ── Secrets / local config overrides ─────────────────────────────────────────
+.env.local
+.env.*.local
+secrets/
